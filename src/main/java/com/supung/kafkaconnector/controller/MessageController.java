@@ -17,6 +17,6 @@ public class MessageController {
     @PostMapping
     public String postMessage(BdeInput message) {
         messageService.postMessage(message);
-        return "message pushed to topic new";
+        return "message pushed to topic new test";
     }
 }
