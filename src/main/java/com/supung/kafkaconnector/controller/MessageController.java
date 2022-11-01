@@ -17,6 +17,6 @@ public class MessageController {
     @PostMapping
     public String postMessage(BdeInput message) {
         messageService.postMessage(message);
-        return "message pushed";
+        return "message pushed to kafka topic updated";
     }
 }
